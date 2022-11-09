@@ -9,7 +9,7 @@ export default class MapaNiveles extends Phaser.Scene {
   }
 
   nivelActual = 0;
-  //imagenes = ["nivel"];
+  
 
   init(data) {
     console.log("mapa nivel", data.nivel);
@@ -56,13 +56,13 @@ export default class MapaNiveles extends Phaser.Scene {
         corazones: this.corazones,
       })
     );
-    //this.click.play();
+    
 
     // Boton para volver al menu principal
     const menu = this.add.image(350, 1000, "boton_menu").setScale(1.0);
     menu.setInteractive();
     menu.on("pointerdown", () => this.scene.start("MenuPrincipal"));
-    //this.clic.play();
+    
   }
 
   update() {}

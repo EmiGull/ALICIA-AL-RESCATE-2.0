@@ -30,18 +30,10 @@ export default class Perdiste extends Phaser.Scene {
       color: "#990066",
     });
 
-    //clic
-    //this.clic = this.sound.add('clic');
-
-    //if (!derrota) {
-    // this.derrota = this.sound.add('derrota', { loop: false });
-    //derrota.play();
-    //}
 
     // Boton para volver al nivel
     var menu = this.add.image(600, 1400, "boton_flecha").setScale(0.25);
     menu.setInteractive();
     menu.on("pointerdown", () => this.scene.start("MapaNiveles"));
-    //this.clic.play();
   }
 }

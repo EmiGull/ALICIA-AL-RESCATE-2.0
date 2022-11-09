@@ -66,6 +66,6 @@ export default class Creditos extends Phaser.Scene {
     const menu = this.add.image(650, 1400, "boton_menu").setScale(1.1);
     menu.setInteractive();
     menu.on("pointerdown", () => this.scene.start("MenuPrincipal"));
-    //this.clic.play();
+    
   }
 }

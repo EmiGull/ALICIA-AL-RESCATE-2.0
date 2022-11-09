@@ -77,15 +77,10 @@ export default class Preload extends Phaser.Scene {
     });
 
     this.load.spritesheet("sprite_reina", "assets/images2/sprite_reina.png", {
-      frameWidth: 106.6,
+      frameWidth: 106,
       frameHeight: 120,
     });
 
-    //this.load.audio('alicia_al_rescate', 'assets/sounds/alicia_al_rescate.mp3',
-    //'assets/sounds/alicia_al_rescate.ogg', 'assets/sounds/alicia_al_rescate.m4a');
-    //this.load.audio('win', 'assets/sounds/win.mp3');
-    //this.load.audio('clic', 'assets/sounds/clic.wav');
-    //this.load.audio('derrota', 'assets/sounds/derrota.mp3');
   }
 
   create() {

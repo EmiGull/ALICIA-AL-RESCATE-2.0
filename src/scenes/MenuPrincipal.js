@@ -22,13 +22,7 @@ export default class MenuPrincipal extends Phaser.Scene {
       .image(this.cameras.main.centerX, this.cameras.main.centerY, "fondo_menu")
       .setScale(1.1);
 
-    //clic
-    //this.clic = this.sound.add('clic');
-
-    //agregar música
-    //if (!musica) {
-    // musica = this.sound.add('alicia_al_rescate', { loop: true });
-    // musica.play();
+  
 
     // Boton para comenzar a jugar
     let jugar = this.add
@@ -44,19 +38,19 @@ export default class MenuPrincipal extends Phaser.Scene {
     jugar.on("pointerdown", () =>
       this.scene.start("MapaNiveles", { nivel: this.nivel })
     );
-    //this.clic.play();
+    
 
     //Boton ayuda
     let ayuda = this.add.image(120, 1400, "ayuda").setScale(1.0);
     ayuda.setInteractive();
     ayuda.on("pointerdown", () => this.scene.start("Creditos"));
-    //this.clic.play();
+    
 
     //Boton ajustes
     let ajustes = this.add.image(600, 1400, "ajustes").setScale(1.0);
     ajustes.setInteractive();
     ajustes.on("pointerdown", () => this.scene.start("Ajustes"));
-    //this.clic.play();
+    
 
     let SpriteGato = this.add
       .sprite(this.cameras.main.centerX, 150, "sprite_gato")

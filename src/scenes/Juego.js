@@ -25,7 +25,7 @@ export default class Juego extends Phaser.Scene {
   }
 
   init(data) {
-    //console.log(data);
+    
     this.nivel = data.nivel ?? 1;
     this.corazonesTotal = data.corazones ?? 0;
     this.coincidencias = 0;
@@ -69,14 +69,13 @@ export default class Juego extends Phaser.Scene {
       color: "#FCE4CA",
     });
 
-    //clic
-    //this.clic = this.sound.add("clic");
+    
 
     // Boton para volver al menu principal
     const menu = this.add.image(650, 100, "boton_menu").setScale(1.0);
     menu.setInteractive();
     menu.on("pointerdown", () => this.scene.start("MenuPrincipal"));
-    //this.clic.play();
+    
 
     this.timedEvent = this.time.addEvent({
       delay: 1000,
@@ -99,7 +98,7 @@ export default class Juego extends Phaser.Scene {
       const posx = this.coordenadas[index][0];
       const posy = this.coordenadas[index][1];
       const tipo = texturasDeCartas[numero];
-      //console.log(tipo)
+      
       let carta = new Carta(this, posx, posy, tipo);
       this.cartas.push(carta);
 
@@ -164,10 +163,7 @@ export default class Juego extends Phaser.Scene {
   }
 
   update() {
-    //En el nivel 4, en el segundo 25 aparece el gato y bloquea un par de cartas al azar, tardan 5 segundos en desbloquearse nuevamente:
-    //this.cartasBloqueadas = this.physics.add.staticGroup();
-    //this.imagen = escena.add.image(x,y, "carta_bloqueada").setInteractive()
-    //numeros8 = numeros8.sort(() => (Math.random() > 0.5 ? 1 : -1));
+    
 
     //En el nivel 5 aparece la reina a los 25 segundos y vuelve a mezclar las cartas:
 
@@ -183,7 +179,7 @@ export default class Juego extends Phaser.Scene {
         }, 3000);
 
         this.cartasMezcladas = true;
-        //console.log("comienza mezclado", this.cartas);
+        
         let indicesMezclados = [];
         indicesMezclados = Array(this.numeros.length)
           .fill(0)
@@ -200,10 +196,10 @@ export default class Juego extends Phaser.Scene {
             repeat: 0,
             ease: "Power1",
           });
-          //console.log(indicesMezclados);
+         
         });
         this.cartasMezcladas = true;
-        //console.log("Finaliza mezclado", this.cartas);
+        
       }
     }
   }

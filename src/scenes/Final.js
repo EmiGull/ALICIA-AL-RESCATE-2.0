@@ -51,7 +51,7 @@ export default class Final extends Phaser.Scene {
     menu.on("pointerdown", () =>
       this.scene.start("MenuPrincipal", { nivel: 1 })
     );
-    //this.clic.play();
+    
 
     //Animación Alicia
     let SpriteAlicia = this.add

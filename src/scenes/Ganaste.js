@@ -44,6 +44,6 @@ export default class Ganaste extends Phaser.Scene {
         corazones: this.corazones,
       })
     );
-    //this.clic.play();
+    
   }
 }
