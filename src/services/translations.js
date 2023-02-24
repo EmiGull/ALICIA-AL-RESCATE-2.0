@@ -1,7 +1,7 @@
 
 import { EN_US, ES_AR } from '../enums/languages';
 
-const PROJECT_ID = '41';
+const PROJECT_ID = '42';
 let translations = null;
 let language = ES_AR;
 
