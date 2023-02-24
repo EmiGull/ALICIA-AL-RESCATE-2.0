@@ -11,7 +11,11 @@
 [Agostina Salgado:](https://github.com/AGO0SALGADO) Artista/ Game designer
 
 # JUEGO ALICIA AL RESCATE
-<a href= "https://drive.google.com/file/d/1hlk5zboIwn9ZkA4XvQGNdzyAIPBPOloi/view?usp=sharing" title= "Alicia animación menu>ALICIA AL RESCATE</a>
+![Logo Alicia al Rescate]("https://github.com/EmiGull/ALICIA-AL-RESCATE-2.0/blob/master/public/assets/images2/alicia.png")
+
+
+## FRAMEWORK:
+![Logo Phaser 3]("https://github.com/EmiGull/ALICIA-AL-RESCATE-2.0/blob/master/public/assets/images2/phaser.png")v
 
 
 ## IMAGENES LIBRES UTILIZADAS:
@@ -22,5 +26,4 @@ EEUU: <a href="https://www.flaticon.es/iconos-gratis/bandera" title="bandera ico
 
 
 
-## FRAMEWORK:
-<a href= "https://www.enmilocalfunciona.io/content/images/2021/03/phaser3.png" title= "phaser3">PHASER 3 LOGO</a>
+
