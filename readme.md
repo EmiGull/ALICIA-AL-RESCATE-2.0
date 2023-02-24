@@ -11,11 +11,11 @@
 [Agostina Salgado:](https://github.com/AGO0SALGADO) Artista/ Game designer
 
 # JUEGO ALICIA AL RESCATE
-![Logo Alicia al Rescate]("https://github.com/EmiGull/ALICIA-AL-RESCATE-2.0/blob/master/public/assets/images2/alicia.png")
+![Logo Alicia al Rescate](https://github.com/EmiGull/ALICIA-AL-RESCATE-2.0/blob/master/public/assets/images2/alicia.png)
 
 
 ## FRAMEWORK:
-![Logo Phaser 3]("https://github.com/EmiGull/ALICIA-AL-RESCATE-2.0/blob/master/public/assets/images2/phaser.png")v
+![Logo Phaser 3](https://github.com/EmiGull/ALICIA-AL-RESCATE-2.0/blob/master/public/assets/images2/phaser.png)
 
 
 ## IMAGENES LIBRES UTILIZADAS:
