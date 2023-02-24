@@ -1,4 +1,6 @@
 import Phaser from "phaser";
+import { getPhrase } from '../services/translations';
+
 
 export default class Ganaste extends Phaser.Scene {
   constructor() {
@@ -29,9 +31,8 @@ export default class Ganaste extends Phaser.Scene {
     this.ganaste = this.add
       .image(this.cameras.main.centerX, 500, "boton_ganaste")
       .setScale(0.7);
-    this.ganaste = this.add.text(175, 445, "¡GANASTE!", {
-      fontFamily: "Rockwell",
-      fontSize: "70px",
+    this.ganaste = this.add.text(175, 445, getPhrase("¡GANASTE!"), {
+      font: "100px VT323",
       color: "#003333",
     });
 

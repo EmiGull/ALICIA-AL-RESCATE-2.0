@@ -1,6 +1,7 @@
 // @ts-ignore
 import Phaser from "phaser";
-let musica = false;
+import { getPhrase } from '../services/translations';
+
 
 export default class MenuPrincipal extends Phaser.Scene {
   constructor() {
@@ -28,9 +29,8 @@ export default class MenuPrincipal extends Phaser.Scene {
     let jugar = this.add
       .image(this.cameras.main.centerX, 625, "jugar_boton")
       .setScale(0.5);
-    this.jugar = this.add.text(265, 600, "JUGAR", {
-      fontFamily: "Rockwell",
-      fontSize: "60px",
+    this.jugar = this.add.text(260, 580, getPhrase("JUGAR"), {
+      font: "100px VT323",
       color: "#FCE4CA",
       align: "center",
     });

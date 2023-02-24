@@ -64,8 +64,7 @@ export default class Juego extends Phaser.Scene {
     this.add.image(400, 100, "boton_temporizador").setScale(1.0);
     this.add.image(150, 100, "boton_puntos").setScale(1.0);
     this.puntos = this.add.text(150, 70, corazones.toString(), {
-      fontFamily: "Rockwell",
-      fontSize: "60px",
+      font: "60px VT323",
       color: "#FCE4CA",
     });
 
@@ -84,8 +83,7 @@ export default class Juego extends Phaser.Scene {
       loop: true,
     });
     this.timeText = this.add.text(390, 70, this.tiempo.toString(), {
-      fontFamily: "Rockwell",
-      fontSize: "60px",
+      font: "60px VT323",
       color: "#FCE4CA",
     });
 

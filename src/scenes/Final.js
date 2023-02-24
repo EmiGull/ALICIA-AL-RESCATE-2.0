@@ -1,5 +1,6 @@
 //@ts-ignore
 import Phaser from "phaser";
+import { getPhrase } from '../services/translations';
 
 export default class Final extends Phaser.Scene {
   constructor() {
@@ -28,19 +29,17 @@ export default class Final extends Phaser.Scene {
         "fondo_final"
       )
       .setScale(1.1);
-    this.final = this.add.text(150, 280, "¡FELICIDADES!", {
-      fontFamily: "Rockwell",
-      fontSize: "60px",
+    this.final = this.add.text(150, 280, getPhrase("¡FELICIDADES!"), {
+      font: "80px VT323",
       color: "#FCE4CA",
     });
 
     this.puntajeFinal = this.add.text(
-      175,
-      360,
-      `Corazones obtenidos: ${this.corazones}`,
+      185,
+      370,
+      getPhrase(`Corazones obtenidos: ${this.corazones}`),
       {
-        fontFamily: "Rockwell",
-        fontSize: "30px",
+        font: "30px Oxanium",
         color: "#FCE4CA",
       }
     );

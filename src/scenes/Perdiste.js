@@ -1,4 +1,5 @@
 import Phaser from "phaser";
+import { getPhrase } from '../services/translations';
 
 export default class Perdiste extends Phaser.Scene {
   constructor() {
@@ -24,9 +25,8 @@ export default class Perdiste extends Phaser.Scene {
     this.perdiste = this.add
       .image(this.cameras.main.centerX, 500, "boton_perdiste")
       .setScale(0.7);
-    this.perdiste = this.add.text(175, 445, "¡PERDISTE!", {
-      fontFamily: "Rockwell",
-      fontSize: "70px",
+    this.perdiste = this.add.text(170, 445, getPhrase("¡PERDISTE!"), {
+      font: "100px VT323",
       color: "#990066",
     });
 

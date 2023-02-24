@@ -1,7 +1,10 @@
 // @ts-ignore
 import Phaser from "phaser";
 
+
 export default class Preload extends Phaser.Scene {
+  
+  
   constructor() {
     // Se asigna una key para despues poder llamar a la escena
     super("Preload");
@@ -10,6 +13,7 @@ export default class Preload extends Phaser.Scene {
   }
 
   preload() {
+   
     this.load.image("boton_mapa", "assets/images2/boton_mapa.png");
     this.load.image("boton_flecha", "assets/images2/boton_flecha.png");
     this.load.image("boton_flecha2", "assets/images2/boton_flecha2.png");
@@ -124,4 +128,5 @@ export default class Preload extends Phaser.Scene {
       yoyo: true,
     });
   }
+  
 }

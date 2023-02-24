@@ -1,5 +1,7 @@
 // @ts-ignore
 import Phaser from "phaser";
+import { getTranslations, getPhrase } from '../services/translations';
+
 
 import { cartasPorNivel } from "../utilites/cartasPorNivel.js";
 
@@ -42,10 +44,8 @@ export default class MapaNiveles extends Phaser.Scene {
     const y = this.scale.height * 0.53;
 
     (this.jugar = this.add.text(x, y, this.texto, {
-      fontFamily: "Rockwell",
-      fontSize: "60px",
+      font: "100px VT323",
       color: "#FCE4CA",
-      fontStyle: "normal",
       align: "center",
       wordWrap: { width: 400 },
     })),

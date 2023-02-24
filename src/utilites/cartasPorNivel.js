@@ -1,10 +1,11 @@
+const { getPhrase } = require("../services/translations");
 
 const cartasPorNivel = {
   1: {
     coincidencias: 2,
     fondo_mapa: "fondo_nivel1",
     fondo_nivel: "bosque",
-    texto: "BOSQUE",
+    texto: getPhrase("BOSQUE"),
     tiempo: 10,
     tipos: [1, 1, 2, 2],
     coordenadas: [
@@ -19,7 +20,7 @@ const cartasPorNivel = {
     coincidencias: 3,
     fondo_mapa: "fondo_nivel2",
     fondo_nivel: "lago",
-    texto: "LAGO",
+    texto: getPhrase("LAGO"),
     tiempo: 15,
     tipos: [1, 1, 2, 2, 3, 3],
     coordenadas: [
@@ -36,7 +37,7 @@ const cartasPorNivel = {
     coincidencias: 4,
     fondo_mapa: "fondo_nivel3",
     fondo_nivel: "montana",
-    texto: "MONTAÑA",
+    texto: getPhrase("MONTAÑA"),
     tiempo: 25,
     tipos: [1, 1, 2, 2, 3, 3, 4, 4],
     coordenadas: [
@@ -56,7 +57,7 @@ const cartasPorNivel = {
     coincidencias: 6,
     fondo_mapa: "fondo_nivel4",
     fondo_nivel: "jardin",
-    texto: "JARDIN",
+    texto: getPhrase("JARDIN"),
     tiempo: 30,
     tipos: [1, 1, 2, 2, 3, 3, 4, 4, 5, 5, 6, 6],
     coordenadas: [
@@ -80,7 +81,7 @@ const cartasPorNivel = {
     coincidencias: 8,
     fondo_mapa: "fondo_nivel5",
     fondo_nivel: "castillo",
-    texto: "CASTILLO",
+    texto: getPhrase("CASTILLO"),
     tiempo: 40,
     tipos: [1, 1, 2, 2, 3, 3, 4, 4, 5, 5, 6, 6, 7, 7, 8, 8],
     coordenadas: [
