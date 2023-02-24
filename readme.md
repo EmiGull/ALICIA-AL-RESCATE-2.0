@@ -2,13 +2,13 @@
 
 ## Integrantes:
 
-[Valentina Galvan:](https://github.com/ValentinaGalvan) Artista/ Game Designer
+[Valentina Galvan:](https://github.com/ValentinaGalvan) Game Designer
 
 
-[Emilia Güll:](https://github.com/EmiGull) Programadora/ Game Designer
+[Emilia Güll:](https://github.com/EmiGull) Programadora
 
 
-[Agostina Salgado:](https://github.com/AGO0SALGADO) Artista/ Game designer
+[Agostina Salgado:](https://github.com/AGO0SALGADO) Artista
 
 # JUEGO ALICIA AL RESCATE
 ![Logo Alicia al Rescate](https://github.com/EmiGull/ALICIA-AL-RESCATE-2.0/blob/master/public/assets/images2/alicia.png)
