@@ -20,7 +20,7 @@ export default class Creditos extends Phaser.Scene {
         "pantalla_creditos"
       )
       .setScale(1.1);
-    this.add.text(150, 270, getPhrase("CREDITOS"), {
+    this.add.text(180, 250, getPhrase("CREDITOS"), {
       font: "100px VT323",
       align: "center",
       color: "#FCE4CA",

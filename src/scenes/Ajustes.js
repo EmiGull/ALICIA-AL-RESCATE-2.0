@@ -30,7 +30,7 @@ export default class Ajustes extends Phaser.Scene {
         "pantalla_ajustes"
       )
       .setScale(1.1);
-    this.idioma = this.add.text(190, 270,  getPhrase("IDIOMA"), {
+    this.idioma = this.add.text(220, 250,  getPhrase("IDIOMA"), {
       font: "100px VT323",
       align: "center",
       color: "#FCE4CA",
