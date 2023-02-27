@@ -37,7 +37,7 @@ export default class Final extends Phaser.Scene {
     this.puntajeFinal = this.add.text(
       185,
       370,
-      getPhrase(`Corazones obtenidos: ${this.corazones}`),
+      `${getPhrase(`Corazones obtenidos:`)} ${this.corazones}`,
       {
         font: "30px Oxanium",
         color: "#FCE4CA",

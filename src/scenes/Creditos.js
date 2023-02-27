@@ -36,7 +36,7 @@ export default class Creditos extends Phaser.Scene {
         color: "#FCE4CA",
       }
     );
-    this.add.text(320, 660, getPhrase('Programadora'), {
+    this.add.text(320, 660, getPhrase("PROGRAMADORA"), {
       font: "25px Oxanium",
       color: "#FCE4CA",
     }
@@ -52,7 +52,7 @@ export default class Creditos extends Phaser.Scene {
         color: "#FCE4CA",
       }
     );
-    this.add.text(320, 910, getPhrase('Diseñadora de Juego'), {
+    this.add.text(320, 910, getPhrase("DISEÑADORA DE JUEGO"), {
       font: "25px Oxanium",
       color: "#FCE4CA",
     }
@@ -68,7 +68,7 @@ export default class Creditos extends Phaser.Scene {
         color: "#FCE4CA",
       }
     );
-    this.add.text(320, 1210, getPhrase('Artista'), {
+    this.add.text(320, 1210, getPhrase("ARTISTA"), {
       font: "25px Oxanium",
       color: "#FCE4CA",
     }
